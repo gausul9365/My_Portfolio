@@ -28,6 +28,7 @@ Colors:
 - Headings text - black #24262a
 - Body text - dark gray #4d5055
 ******************************************/
+/* me adding an extra code for color */
 
 
 /**************************/
@@ -544,7 +545,7 @@ input[type='checkbox'] {
 
 .header .btn-outline-lg:hover {
 	background: transparent;
-	color: #9c9ead;
+	color: #cc3193;
 	text-decoration: none;
 }
 
@@ -559,6 +560,8 @@ input[type='checkbox'] {
 .basic-1 {
 	padding-top: 7.75rem;
 	padding-bottom: 5.25rem;
+	background-color: #9ED9E8; 
+	
 }
 
 .basic-1 .text-container {
@@ -577,6 +580,8 @@ input[type='checkbox'] {
 .basic-1 h6 {
 	margin-bottom: 0.125rem;
 }
+
+/* Project */
 
 
 /********************/
@@ -613,37 +618,36 @@ input[type='checkbox'] {
 .basic-2 h4 {
 	letter-spacing: 1px;
 }
-
+.basic-2.container{
+	background-color: #71e126;
+}
 
 /*******************/
 /*     Details     */
 /*******************/
-.split .area-1 {
-	height: 430px;
+.split {
+	
+	
 	background: linear-gradient(to bottom right, rgba(14, 23, 49, 0.5), rgba(25, 26, 29, 0.5)), url('../images/img-nobg.png') left left no-repeat;
 	background-size: cover;
-	
-    
-    background-size: ; /* Ensures the image covers the entire background */
+    background-size: 100%;
+		background-color: #67b1a6;
+		padding-top: 2rem;
+		 /* Ensures the image covers the entire background */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: left; /* Centers the image */
     background-attachment: fixed; /* Keeps the background image fixed during scroll */
 
 
 }
-
-.split .area-2 {
-	padding-top: 7.75rem;
-	padding-bottom: 7.75rem;
+.spilt .container{
+	background-size: 100%;
 	
 }
 
-.split p {
-	margin-bottom: 2.25rem;
-}
 
 .split .icons-container {
-	margin-top: 3rem;
+	margin-top: 0rem;
 }
 
 .split .icons-container img {
@@ -704,7 +708,9 @@ input[type='checkbox'] {
 /*     Works     */
 /*****************/
 .basic-4 {
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	background-color: #8dafe2;
 }
 
 .basic-4 .text-container {
@@ -733,7 +739,10 @@ input[type='checkbox'] {
 	transform: scale(1.15);
 } 
 /* end of hover animation */
+.container-fluid{
+	background-color: #8dafe2;
 
+}
 
 /************************/
 /*     Testimonials     */
@@ -741,6 +750,7 @@ input[type='checkbox'] {
 .cards-1 {
 	padding-top: 3rem;
 	padding-bottom: 3.875rem;
+	background-color: #8dafe2;
 }
 
 .cards-1 .h2-heading {
@@ -749,8 +759,9 @@ input[type='checkbox'] {
 }
 
 .cards-1 .card {
-	margin-bottom: 4rem;
-	border: none;
+	margin-bottom: 0rem;
+	border: rgb(248, 228, 3);
+	background-color: #8dafe2;
 }
 
 .cards-1 .card-body {
