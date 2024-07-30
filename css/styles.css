@@ -33,7 +33,7 @@ Colors:
 /* game */
 #game-area {
   width: 100%;
-  height: 400px;
+  height: 300px;
   border: 2px solid #000;
   position: relative;
   display: flex;
@@ -41,8 +41,8 @@ Colors:
   justify-content: space-between;
   align-items: center;
   background:
-      linear-gradient(135deg, #1b1c29, #00BFFF),
-      radial-gradient(circle at 20% 50%, #ffffff 10%, #87CEFA 20%),
+      linear-gradient(135deg, #1b1c29, #295360),
+      radial-gradient(circle at 20% 50%, #8c3d88 10%, #87CEFA 20%),
       radial-gradient(circle at 80% 50%, #ffffff 10%, #00BFFF 20%);
   background-size: 100% 100%;                     
   animation: wave-animation 10s infinite linear;
@@ -64,12 +64,12 @@ Colors:
 }
 
 #random-button {
-  padding: 15px 30px;
-  font-size: 18px;
+  padding: 7px 9px;
+  font-size: 10px;
   color: #fff;
   background-color: #ff4500;
   border: none;
-  border-radius: 8px;
+  border-radius: 3px;
   cursor: pointer;
   transition: transform 0.1s, background-color 0.1s;
 }
@@ -104,7 +104,7 @@ Colors:
 	
   font-size: 18px;
   color: #fff;
-  background-color: #434643;
+  background-color: #5b1c45;
   border: none;
   border-radius: 8px;
   cursor: pointer;
